@@ -20,6 +20,7 @@ body {
     justify-content: space-between;
     position: fixed;
     top: 0;
+    background-color: #fff;
 }
 
 .logo {
@@ -66,6 +67,7 @@ body {
     justify-content: space-around;
     padding: 2rem;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .text-col {
@@ -89,7 +91,7 @@ body {
 
 .cta-button {
     width: fit-content;
-    padding: 0.8rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     background-color: rgb(126, 75, 177);
     color: #fff;
     border: none;
@@ -101,4 +103,72 @@ body {
 
 .cta-button:hover {
     background-color: rgb(100, 60, 150);
+}
+
+.about {
+    padding: 2rem;
+    background-color: rgb(249, 249, 249);
+}
+
+.about-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    /* margin-bottom: 1rem; */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+}
+
+.right-about-col {
+    max-width: 400px;
+    text-align: left;
+}
+
+.about-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.about-button {
+    width: fit-content;
+    padding: 0.6rem 1.5rem;
+    background-color: rgb(126, 75, 177);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.5s ease;
+}
+
+.about-button:hover {
+    background-color: rgb(100, 60, 150);
+}
+
+.stat {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    max-width: 230px;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.stat h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+}
+
+.stat p {
+    font-size: 1rem;
+    color: #555;
 }
